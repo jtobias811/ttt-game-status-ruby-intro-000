@@ -32,9 +32,8 @@ def won?(board)
     end
   }
       return false
-    end
-  end
 end
+
 
   def full?(board)
     board.all? {|index|index == "X" || index == "O"}
